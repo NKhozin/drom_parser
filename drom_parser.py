@@ -7,7 +7,7 @@ import time
 import sqlalchemy.exc
 import psycopg2
 
-engine = sqlalchemy.create_engine("postgresql://postgres:12345@localhost:5432/postgres")
+engine = sqlalchemy.create_engine("")
 
 def get_car_info_from_page(link):
     """Функция сбора информации объявлений со страницы и сохранения в базу данных"""
